@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* logo */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigasi {
+  background-color: rgb(0, 191, 255);
+  width: 100%;
+  height: 70px;
+  color: rgb(247, 244, 246);
+  position: fixed;
+}
+
+.logo {
+  float: left;
+  margin: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.menu {
+  margin-left: 800px;
+  padding-top: 27px;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.menu ul li a:hover {
+  color: rgb(20, 19, 20);
+  font-style: italic;
+}
+
+.beranda {
+  background-color: rgb(135, 206, 250);
+  height: 600px;
+  text-align: center;
+  color: white;
+}
+
+.beranda img {
+  border-radius: 100px;
+  height: 250px;
+  border: 5px solid white;
+  margin-top: 85px;
+}
+
+.beranda h1 {
+  margin-top: 15px;
+  margin-bottom: 15;
+}
+
+.beranda button {
+  margin-top: 50px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 50px;
+  border: none;
+}
+
+.beranda button:hover {
+  background-color: rgb(0, 191, 255);
+  border: 1px solid white;
+}
+
+.box-shop {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+  align-content: center;
+}
+
+.box-kiri,
+.box-tengah,
+.box-kanan {
+  width: 300px;
+  height: 320px;
+  background-color: rgb(0, 191, 255);
+  text-align: center;
+  padding: 30px 10px;
+  margin: 70px 40px 20px 55px;
+  border-radius: 15px;
+  float: left;
+}
+
+.box-kiri:hover,
+.box-tengah:hover,
+.box-kanan:hover {
+  background-color: rgb(113, 62, 99);
+  color: white;
+}
+
+.box-shop h3,
+p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 0px 15px;
+}
+
+.box-databarang {
+  text-align: center;
+  color: rgb(84, 16, 74);
+  margin-top: 50px;
+  align-content: center;
+}
+
+.my-table {
+  text-align: center;
+  color: rgb(84, 16, 74);
+  margin-top: 30x;
+  align-content: center;
+  margin: auto;
+}
+.my-table {
+  border: none;
+  border-collapse: collapse;
+}
+
+.my-table td {
+  padding: 1em;
+}
+
+.my-table tr:nth-child(even) {
+  background-color: rgb(231, 140, 202);
+}
+
+
+/* about me */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.education {
+  text-align: center;
+  padding: 20px;
+}
+.education-card {
+  margin-top: 20px;
+}
